@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: purple;
+}
+
+p {
+    text-align: center;
+    color: #43b0a0;
+    font-size: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.galeria > div {
+    width: 33%;
+    margin: 10px;
+    text-align: center;
+  }
+
+.galeria > div > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.galeria > div > img:hover {
+    transform: translateY(0) scale(1.2);
+  }
